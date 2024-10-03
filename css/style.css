@@ -1,0 +1,78 @@
+body {
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f50;
+
+    text-align: center;
+    font-family: 'Droid Arabic Kufi', Arial, Verdana, Helvetica, 'Trebuchet MS';
+}
+
+.all {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid #f50;
+    overflow: hidden;
+}
+
+.me {
+    margin-top: 60px;
+    border: 5px solid #f50;
+}
+
+p,
+span {
+    color: #fff;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: ;
+}
+
+.btn-primary {
+    background-color: #353eb5;
+    border-color: #007bff;
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* smart phones */
+@media(max-width:800px) {}
+
+/* small screen */
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+
+    h1,
+    h2 {
+        font-size: 55px
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    span {
+        font-size: 45px;
+    }
+
+    .btn-primary {
+        height: 90px;
+        font-size: 45px;
+        margin-bottom: -10px;
+    }
+}
+
+/* medium screen */
+@media only screen and (min-width: 992px) and (max-width: 1190px) {}
+
+/* large screen */
+@media(min-width:1200px) {
+    /* write media*/
+}
